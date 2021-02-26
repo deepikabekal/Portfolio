@@ -45,4 +45,32 @@ header nav ul li a{
 
   /* header style ends */
 
+  /* hero section begins */
+
+  .hero{
+    height: 200px;
+    background-image: url("../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+     
+    
+  }
+
+  .hero h2{
+      color: rgb(36, 35, 37);
+      background-color:  rgb(105, 196, 197);
+      align-self: flex-end;
+      margin: 0 40px 20px 0;
+      padding: 5px;
+      font-size: 27px;      
+  }
+
+  .hero h2 span{
+      font-style: italic;
+  }
+
  
+  /* hero section ends */
+
