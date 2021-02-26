@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color:rgb(1, 1, 43);
+    background-color:rgb(36, 35, 37);
 }
 
 header h1{
@@ -42,3 +42,7 @@ header nav ul li a{
     padding-bottom: 3px;
     border-bottom: 3px solid rgb(105, 196, 197) ;
   }
+
+  /* header style ends */
+
+ 
