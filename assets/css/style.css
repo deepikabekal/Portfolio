@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header style begins*/
+header{
+    padding : 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:rgb(1, 1, 43);
+}
+
+header h1{
+    color:rgb(2, 2, 51);
+    background: rgb(105, 196, 197);
+    font-size: 40px;
+    padding: 5px;
+}
+
+header nav {
+    text-align: center;
+    padding-top: 15px;  
+}
+
+header nav ul li {
+    display:inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    color:  rgb(105, 196, 197);
+    margin: 0 10px;
+    font-weight: lighter;
+    font-size : 1.7vw;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 3px solid rgb(105, 196, 197) ;
+  }
