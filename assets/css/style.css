@@ -90,7 +90,7 @@ header nav ul li a{
 
 .aboutme-header{
     font-size: 28px;
-    padding: 0 10px;
+    padding: 0 6px;
     border-right: 3px solid rgb(20, 3, 116);
     text-align: right;
     color: rgb(20, 3, 116) ;
@@ -124,6 +124,13 @@ header nav ul li a{
 }
 
 /* work content box styles */
+
+.work{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 50px 35px 50px;
+}
+
 .work-content{
     display: flex;
     justify-content:space-evenly;
@@ -145,7 +152,13 @@ header nav ul li a{
     margin-top: 20px;    
     border: 3px solid rgb(156, 232, 233);
    
-}   
+}  
+
+.work-projects div{
+    background: rgb(156, 232, 233);
+    color: rgb(20, 3, 116);
+}
+    
 
 /* background image added to each project */
 .run-buddy{
