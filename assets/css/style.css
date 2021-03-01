@@ -107,6 +107,53 @@ header nav ul li a{
 
 /* Work section begins */
 
+.work{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 50px 35px 50px;
+}
+
+.work-content{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 5px 20px 5px 20px;
+}
+
+.work-projects{
+    
+    height: 150px; 
+    width: 50%; 
+   
+}   
+
+.run-buddy{
+    background-image: url("../images/run-buddy.jpg");
+    width: 100%;
+}
+    
+
+.horiseon{
+    background-image: url("../images/Horiseon.png");
+    width: 45%;
+    
+}
+
+.robot-gladiators{
+    background-image: url("../images/robot-gladiator.jpg");
+    width: 45%;
+}
+
+.calculator{
+    background-image: url("../images/calculator.jpg");
+    width: 45%;
+}
+
+.surf-report{
+    background-image: url("../images/surf-report.jpg");
+    width: 45%;
+}
 
 
 /*work section ends */
