@@ -190,3 +190,43 @@ header nav ul li a{
 
 
 /*work section ends */
+
+/* Contact Me section begins */
+
+.contact-me{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.contact-me h2{
+    color: rgb(20, 3, 116);
+    border-right: 3px solid rgb(20, 3, 116);
+    font-size: 28px;
+    padding: 0 15px;
+    text-align: right;
+}
+
+.contact-me nav {
+    text-align: center;
+    padding-top: 15px;  
+}
+
+.contact-me nav ul li {
+    display:inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-me nav ul li a{
+    color: rgb(20, 3, 116);
+    margin: 0 10px;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 3px solid rgb(20, 3, 116) ;
+    align-self: center;
+  }
+/* Contact Me section ends */
