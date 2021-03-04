@@ -61,6 +61,7 @@ header nav ul li a{
     background-size: cover;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
      
     
   }
@@ -123,6 +124,7 @@ header nav ul li a{
     flex-wrap: wrap;
 }
 
+
 /* work content box styles */
 
 .work{
@@ -139,6 +141,10 @@ header nav ul li a{
     padding: 5px 20px 5px 20px;
 }
 
+.work-content a div h3, .work-content a div h4{
+    padding: 2px;
+}
+
 /* Styles for each project box */
 .work-projects{
     background-size: cover;
@@ -146,7 +152,6 @@ header nav ul li a{
     justify-content: flex-start;
     align-items: flex-end;    
     height: 150px; 
-    width: 50%; 
     text-decoration: none;
     padding-bottom: 10px;
     margin-top: 20px;    
@@ -163,7 +168,7 @@ header nav ul li a{
 /* background image added to each project */
 .run-buddy{
     background-image: url("../images/run-buddy.jpg");
-    width: 100%;
+    width: 93%;
 }
     
 
@@ -195,38 +200,30 @@ header nav ul li a{
 
 .contact-me{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-bottom: 100px;
+    justify-content: space-around;
 }
 
-.contact-me h2{
-    color: rgb(20, 3, 116);
-    border-right: 3px solid rgb(20, 3, 116);
+.contactme-header{
     font-size: 28px;
-    padding: 0 15px;
+    padding: 0 6px;
+    border-right: 3px solid rgb(20, 3, 116);
     text-align: right;
+    color: rgb(20, 3, 116) ;
+    width: 20%;
 }
 
-.contact-me nav {
-    text-align: center;
-    padding-top: 15px;  
-}
-
-.contact-me nav ul li {
-    display:inline-flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.contactme-content{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    list-style: none;
+    width: 98%;
 }
 
-.contact-me nav ul li a{
+.contactme-content a{
+    font-size: 18px;
     color: rgb(20, 3, 116);
     margin: 0 10px;
     text-decoration: none;
     padding-bottom: 3px;
     border-bottom: 3px solid rgb(20, 3, 116) ;
-    align-self: center;
-  }
-/* Contact Me section ends */
+}
