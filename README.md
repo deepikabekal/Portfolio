@@ -46,11 +46,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 * When clicked on the links in the navigation you will be navigated to the respective section of the webpage.
 * When hovered over an application, it will become bright and larger in size than other applications. 
 * When clicked on the image of the application, you will be navigated to the deployed application in a new tab.
-      * The applications Calculator and Surf Report are placeholder and hence when clicked on them, you will be navigated to www.google.com.
+     * The applications Calculator and Surf Report are placeholder and hence when clicked on them, you will be navigated to www.google.com.
 * When you resize the page, you will see a responsive layout that adapts to the respective viewport.
 * When viewed the site on various screens and devices, you will see a responsive layout that adapts to the respective viewport.
 * In the contact section, there are links for phone number, email, GitHub, spotify, twitter.
-    * If you click on spotify and twitter, you will be directed to www.google.com.
+     * If you click on spotify and twitter, you will be directed to www.google.com.
 * To view the embedded PDF viewer in mobile layout please use Firefox browser.
 
 
