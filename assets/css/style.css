@@ -94,7 +94,7 @@ header nav ul li a{
 
 .aboutme-header, .work-header,.contactme-header,.resume-header{
     font-size: 25px;
-    padding: 0 6px;
+    padding: 0 8px;
     border-right: 3px solid rgb(20, 3, 116);
     text-align: right;
     color: rgb(20, 3, 116) ;
@@ -126,7 +126,7 @@ header nav ul li a{
 /*work section heading styles*/
 .work-header{
     
-    padding: 0 10px;
+    margin: 0 10px;
     flex-wrap: wrap;
 }
 
@@ -226,7 +226,7 @@ header nav ul li a{
 .contactme-header{
    
     padding: 0 8px;
-    width: 10.3rem;
+    width: 10.6rem;
 }
 
 .contactme-content{
@@ -260,7 +260,7 @@ header nav ul li a{
 }
 
 .resume-header{
-   margin-left: 20px;
+   margin-left: 22px;
 }
 
 .resume-content{
@@ -368,6 +368,8 @@ header nav ul li a{
       .contact-me{
           padding: 0 30px;
       }
+
+      
 
       .contactme-content a{
           font-size: 50px;  
