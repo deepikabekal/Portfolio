@@ -92,7 +92,7 @@ header nav ul li a{
   /* About Me section style begins */
 
 
-.aboutme-header, .work-header, .contactme-header,.resume-header{
+.aboutme-header, .work-header,.contactme-header,.resume-header{
     font-size: 25px;
     padding: 0 6px;
     border-right: 3px solid rgb(20, 3, 116);
@@ -217,25 +217,25 @@ header nav ul li a{
 /*work section ends */
 
 /* Contact Me section begins */
-
 .contact-me{
     display: flex;
-    justify-content: flex-start;
-    padding: 35px 50px 35px 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px 50px 35px 0px;
 }
 
 
 .contactme-header{
    
     padding: 0 8px;
-    width: 13%;
+    margin-left: 20px;
 }
 
 .contactme-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 87%;
+    width: 80%;
 }
 
 .contactme-content a{
@@ -247,6 +247,8 @@ header nav ul li a{
     border-bottom: 3px solid rgb(20, 3, 116) ;
 }
 
+
+
 /* contact me section ends */
 
 /* Resume section begins */
@@ -255,12 +257,12 @@ header nav ul li a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 35px 50px 35px 50px;
+    padding: 35px 50px 35px 0px;
     
 }
 
 .resume-header{
-    width: 16%;
+   margin-left: 20px;
 }
 
 .resume-content{
@@ -368,6 +370,12 @@ header nav ul li a{
           font-size: 50px;  
           margin-right: 25px;                  
       }
+      .resume-content{
+        padding: 35px 0px 35px 50px;
+    }
+    
+    
+      
 
       .resume-content iframe{
         flex: 1 100%;
@@ -377,12 +385,6 @@ header nav ul li a{
     
 }
 
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-    
-   p{
-       font-size: larger;
-   }
-  }
+ 
   
 
