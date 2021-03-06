@@ -42,6 +42,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## Notes
+```
 * When clicked on the links in the navigation you will be navigated to the respective section of the webpage.
 * When hovered over an application, it will become bright and larger in size than other applications. 
 * When clicked on the image of the application, you will be navigated to the deployed application in a new tab.
@@ -51,7 +52,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 * In the contact section, there are links for phone number, email, GitHub, spotify, twitter
     * If you click on spotify and twitter, you will be directed to www.google.com
 * To view the embedded PDF viewer in mobile layout please use Firefox browswer.
- 
+``` 
 
 ## References
 * Study Material for HTML and CSS provided by Trilogy Education Services.
