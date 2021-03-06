@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-A portfolio website with all the information about me, projects built, resume and contact information.
+A portfolio website with all the information about the developer, applications , resume and contact information.
 
 ## Website
 https://deepikabekal.github.io/Portfolio/
