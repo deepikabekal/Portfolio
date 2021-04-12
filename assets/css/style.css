@@ -203,8 +203,8 @@ header nav ul li a{
     width: 45%;
 }
 
-.calculator{
-    background-image: url("../images/calculator.jpg");
+.covid-now{
+    background-image: url("../images/covid-now.jpg");
     width: 45%;
 }
 
@@ -274,6 +274,7 @@ header nav ul li a{
 .resume-content iframe {
     height: 500px;
     width: 95%;
+    
 }
 
 /* end of resume section */
