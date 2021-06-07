@@ -213,6 +213,10 @@ header nav ul li a{
     width: 45%;
 }
 
+.live-out-doors {
+    background-image: url("../images/live-out-doors.png");
+    width: 45%;
+}
 
 /*work section ends */
 
